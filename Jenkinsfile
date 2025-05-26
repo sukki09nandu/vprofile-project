@@ -45,18 +45,6 @@ pipeline {
             }
 
         }
-    
-
-
-        stage('Deploy'){
-            steps {
-                sh 'mvn -s settings.xml -DskipTests deploy'
-            }
-        }
-        stage('Release'){
-            steps {
-                sh 'mvn -s settings.xml -DskipTests release:perform'
-            }
-        }
+       
     }
 }
