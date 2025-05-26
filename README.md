@@ -1,6 +1,6 @@
 # Prerequisites
 #
-#
+# To run this project, you need to have the following software installed on your machine
 - JDK 17 or 21
 - Maven 3.9
 - MySQL 8
